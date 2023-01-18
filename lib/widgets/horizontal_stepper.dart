@@ -89,9 +89,7 @@ class HorizontalStepperItem extends StatelessWidget {
         ),
         const SizedBox(height: 4),
       ],
-      if (item.subtitle != null) ...[
-        item.subtitle
-      ],
+      item.subtitle ?? SizedBox()
       Row(
         children: [
           Flexible(
