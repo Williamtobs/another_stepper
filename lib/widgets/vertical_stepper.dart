@@ -122,9 +122,7 @@ class VerticalStepperItem extends StatelessWidget {
                     ),
               ),
             ],
-            if (item.subtitle != null) ...[
-              item.subtitle
-            ],
+            item.subtitle ?? SizedBox()
           ],
         ),
       ),
