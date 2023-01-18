@@ -123,7 +123,7 @@ class VerticalStepperItem extends StatelessWidget {
               ),
             ],
             if (item.subtitle != null) ...[
-              item.iconWidget
+              item.subtitle
             ],
           ],
         ),
