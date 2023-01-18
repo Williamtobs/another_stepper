@@ -21,7 +21,6 @@ class _MyAppState extends State<MyApp> {
             color: Colors.grey,
           ),
         ),
-        subtitle: StepperText("Your order has been placed"),
         iconWidget: Container(
           padding: const EdgeInsets.all(8),
           decoration: const BoxDecoration(
@@ -31,7 +30,6 @@ class _MyAppState extends State<MyApp> {
         )),
     StepperData(
         title: StepperText("Preparing"),
-        subtitle: StepperText("Your order is being prepared"),
         iconWidget: Container(
           padding: const EdgeInsets.all(8),
           decoration: const BoxDecoration(
@@ -41,8 +39,6 @@ class _MyAppState extends State<MyApp> {
         )),
     StepperData(
         title: StepperText("On the way"),
-        subtitle: StepperText(
-            "Our delivery executive is on the way to deliver your item"),
         iconWidget: Container(
           padding: const EdgeInsets.all(8),
           decoration: const BoxDecoration(
