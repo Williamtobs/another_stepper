@@ -123,17 +123,7 @@ class VerticalStepperItem extends StatelessWidget {
               ),
             ],
             if (item.subtitle != null) ...[
-              const SizedBox(height: 8),
-              Text(
-                item.subtitle!.text,
-                textAlign: TextAlign.start,
-                style: item.subtitle!.textStyle ??
-                    const TextStyle(
-                      fontSize: 12,
-                      color: Colors.grey,
-                      fontWeight: FontWeight.w500,
-                    ),
-              ),
+              item.iconWidget
             ],
           ],
         ),
