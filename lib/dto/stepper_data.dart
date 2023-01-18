@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 class StepperData {
   /// title for the stepper
   final StepperText? title;
 
   /// subtitle for the stepper
-  final StepperText? subtitle;
+  final Widget? subtitle;
 
   final Widget? iconWidget;
 
